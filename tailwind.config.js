@@ -4,11 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "light-blue": "blue",
-        "txt-color": "#38CC8B",
+        purple: "#5E54A4",
       },
       width: {
-        medium: "6rem",
+        medium: "40%",
+        large: "90%",
       },
       text: {
         "txt-6": "10rem",
