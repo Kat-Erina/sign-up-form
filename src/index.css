@@ -8,7 +8,7 @@
 }
 
 .error {
-  border: 1px solid red;
+  border: 1px solid #ff7979;
 }
 
 .none {
@@ -29,8 +29,4 @@ img {
   width: 24px;
   height: 24px;
   display: none;
-}
-
-main {
-  min-width: 100%;
 }
