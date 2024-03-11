@@ -28,6 +28,7 @@ const Form = () => {
   }
   function checkAllInputs() {
     let objKeys = Object.keys(stateObject);
+
     let inputs = Array.from(document.querySelectorAll("input"));
 
     // ai es qveda funqcionali ar momwons
@@ -50,8 +51,8 @@ const Form = () => {
       <p className="mb-6 mx-6 px-6  bg-purple h-88 rounded-lg text-center flex justify-center items-center text-white py-4 shadow-dark md:h-60  md:text-[15px]">
         Try it Free for 7 days then $20/mo.thereafter
       </p>
-      <form className="mx-6 mb-6 p-8 bg-white rounded-md shadow-dark md:p-10 ">
-        <div className=" w-full border border-light-grey rounded-md  h-14 flex flex-row items-center bg-white mb-2 md:h-56  md:w-460">
+      <form className="mx-6 mb-6 p-8  bg-white rounded-md shadow-dark md:p-10 ">
+        <div className=" w-full border border-light-grey rounded-md  h-14 flex flex-row items-center bg-white md:h-56  md:w-full ">
           <input
             placeholder="First Name"
             onChange={(event) => {
@@ -63,11 +64,11 @@ const Form = () => {
           ></input>
           <img src={warning} alt=""></img>
         </div>
-        <p className="none float-right text-pink font-medium italic text-extra-small mb-4">
-          firstname can not be empty
+        <p className="none w-full text-right text-pink italic text-extra-small p-1 ">
+          name can not be empty
         </p>
 
-        <div className=" w-full border border-light-grey  rounded-md  h-14 flex flex-row items-center bg-white mb-2 md:h-56 md:w-460">
+        <div className=" w-full border border-light-grey  rounded-md  h-14 flex flex-row items-center bg-white  md:h-56 md:w-full ">
           <input
             placeholder="Last Name"
             onChange={(event) => {
@@ -79,11 +80,11 @@ const Form = () => {
           ></input>
           <img src={warning} alt=""></img>
         </div>
-        <p className="none float-right text-pink font-medium italic text-extra-small mb-4">
-          lastname can not be empty
+        <p className=" none w-full text-right text-pink font-medium italic text-extra-small py-1">
+          Lastname can not be empty
         </p>
 
-        <div className=" w-full border border-light-grey rounded-md  h-14 flex flex-row items-center bg-white mb-2 md:h-56 md:w-460">
+        <div className=" w-full border border-light-grey rounded-md  h-14 flex flex-row items-center bg-white md:h-56 md:w-full ">
           <input
             placeholder="Email"
             onChange={(event) => {
@@ -95,11 +96,11 @@ const Form = () => {
           ></input>
           <img src={warning} alt=""></img>
         </div>
-        <p className="none float-right text-pink font-medium italic text-extra-small mb-4">
-          Looks Like this is not your email
+        <p className="none w-full text-right float-right text-pink font-medium italic text-extra-small py-1">
+          Looks like it is not your email
         </p>
 
-        <div className=" w-full border border-light-grey  rounded-md  h-14 flex flex-row items-center bg-white mb-2 md:h-56 md:w-460">
+        <div className=" w-full border border-light-grey  rounded-md  h-14 flex flex-row items-center bg-white  md:h-56 md:w-full ">
           <input
             placeholder="Password"
             onChange={(event) => {
@@ -111,8 +112,8 @@ const Form = () => {
           ></input>
           <img src={warning} alt=""></img>
         </div>
-        <p className="none float-right text-pink font-medium italic text-extra-small mb-4">
-          password can not be empty
+        <p className="none w-full text-right float-right text-pink font-medium italic text-extra-small py-1">
+          Password can not be empty
         </p>
 
         <button

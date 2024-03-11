@@ -12,10 +12,11 @@
 }
 
 .none {
-  display: none;
+  visibility: hidden;
 }
 
 .visible {
+  visibility: visible;
   display: block;
 }
 

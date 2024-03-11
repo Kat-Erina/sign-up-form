@@ -15,7 +15,7 @@ export default {
       },
       width: {
         large: "90%",
-        460: "28.76rem",
+        // 460: "28.76rem",
       },
       height: {
         88: "5.5rem",
